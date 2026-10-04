@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data (downloaded, not committed)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.db
+.DS_Store
