@@ -54,3 +54,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# To put it in pesos: on $200 at today’s rate of about 62.6 PHP per dollar, the 0.62-point gap between banks and money transfer companies is about 78 pesos per transfer. For a family sending money every month, that’s roughly 935 pesos a year just from the type of provider. Comparing individual providers will show a much bigger gap, which is the next step.

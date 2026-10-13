@@ -60,7 +60,7 @@ remittance-php-analysis/
 
 - [x] Project setup
 - [ ] Exchange rate data pipeline
-- [ ] Provider cost data cleaning
+- [x] Provider cost data cleaning
 - [ ] SQL database and analysis queries
 - [ ] Timing analysis
 - [ ] Tableau dashboard
