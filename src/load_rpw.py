@@ -34,6 +34,12 @@ COLUMNS = {
     "transparent": "transparent",
 }
 
+# Same company under different names in different years
+PROVIDER_ALIASES = {
+    "Transferwise": "Wise",
+    "TransferWise": "Wise",
+    "Trans-Fast": "Transfast",
+}
 
 def read_sheet(sheet: str) -> pd.DataFrame:
     df = pd.read_excel(RAW_FILE, sheet_name=sheet)
@@ -68,6 +74,7 @@ def main() -> None:
     # fx_margin_pct of 0 is unknown, not free. Flag it for the analysis.
     df["transparent"] = df["transparent"].astype(str).str.strip().str.lower() == "yes"
     df["provider"] = df["provider"].astype(str).str.strip()
+    df["provider"] = df["provider"].replace(PROVIDER_ALIASES)
 
     df = df.dropna(subset=["total_cost_pct"]).sort_values(["quarter_start", "provider"])
 
