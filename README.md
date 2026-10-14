@@ -66,7 +66,7 @@ remittance-php-analysis/
 - [x] SQL database and analysis queries
 - [x] Timing analysis
 - [x] Tableau dashboard
-- [ ] Findings and family guide
+- [x] Findings and family guide
 
 ## Key Findings
 
@@ -77,6 +77,28 @@ remittance-php-analysis/
 - **Verified in 2026.** A live price check in October 2026 matched the World Bank figures for Wise and Western Union.
 
 Full write-up: [reports/findings.md](reports/findings.md)
+
+## Limitations
+
+**Data coverage**
+- World Bank provider data ends in **Q1 2025**, the most recent release available as of October 2026.
+- **4 of 57 quarters** are missing from the World Bank survey between 2011 and Q1 2025.
+- Only providers surveyed by the World Bank are included; some popular options (e.g., PayPal, GCash-linked services) appear only in the 2026 spot check or not at all.
+
+**Measurement**
+- World Bank figures are **quoted prices** for a $200 transfer, not actual transactions. Real costs may differ for other amounts, payment methods, or delivery options.
+- **8 quotes were non-transparent**: the provider did not disclose its exchange rate, so their recorded 0% markup likely understates the true cost.
+- **Promotions and first-transfer discounts** are not captured in the World Bank data.
+- Pesos received are estimated using the **quarterly average** mid-market rate, which smooths out movements within each quarter.
+
+**Analysis choices**
+- **Citibank** was excluded from the Hidden Costs chart because its $35 flat fee (17.5% of $200) distorts the scale. It remains in all other figures.
+- Provider names were standardized (e.g., TransferWise and Wise merged) to avoid double counting.
+- The **timing analysis** uses daily exchange rates, which are autocorrelated, so daily ANOVA p-values overstate certainty. The year-by-year check leaves only 15 independent observations, and the monthly pattern was not statistically significant (sign test p ≈ 0.15).
+
+**2026 spot check**
+- Based on **one day** (October 14, 2026), **5 providers**, and **one source** (Wise's public comparison page). Wise is a competitor of the providers it compares, so figures should be verified directly with each provider.
+- Remitly's quote likely reflects **promotional pricing**.
 
 ## Author
 
