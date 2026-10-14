@@ -2,6 +2,7 @@
 
 **[View Interactive Dashboard](https://public.tableau.com/views/RemittanceCostsUSDtoPHP/PHP-ANALYSIS?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
+[![Dashboard preview](dashboard/dashboard.png)]
 **An analytics project to help U.S. immigrant families understand where their money goes when sending it home to the Philippines.**
 
 ## Why This Project
