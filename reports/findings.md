@@ -51,7 +51,21 @@ Citibank's account-to-account transfer cost **0% through 2021**, then switched t
 
 ## 6. Does timing matter?
 
-*To be added after the timing analysis.*
+**Not much. Provider choice matters about 7.5 times more than timing.**
+
+| Choice | Difference per $200 |
+|---|---|
+| Best vs. worst mainstream provider | about 546 pesos |
+| Best vs. worst month | about 72 pesos |
+| Best vs. worst day of the week | about 7 pesos |
+
+- **Day of the week:** No effect (ANOVA p = 0.84).
+- **Part of the month:** Sending late in the month averaged about 19 pesos more than early in the month. Statistically detectable, but too small to plan around.
+- **Month of the year:** September and June tended to be the best months and November through February the weakest, consistent with the peso strengthening when holiday remittances flow into the Philippines. However, September beat December in only **10 of 15 years** (sign test p ≈ 0.15), so this is a mild tendency, not a reliable rule.
+
+**Method note:** Each day's rate was compared with its trailing 30-day average to remove the long-run trend. Daily ANOVA p-values overstate certainty because exchange rates on nearby days are strongly correlated (autocorrelation), so the year-by-year comparison is the more trustworthy test.
+
+**Lesson for families:** Don't wait for a "good day" to send money. Switching to a cheaper provider is worth far more.
 
 ## Recommendations
 
@@ -67,6 +81,7 @@ Citibank's account-to-account transfer cost **0% through 2021**, then switched t
 - **8 quotes** were non-transparent: the provider didn't disclose its exchange rate, so their true cost is likely understated.
 - Exchange rates are **quarterly averages**, so movements within a quarter are smoothed out.
 - Promotions and first-transfer discounts aren't captured.
+- Timing tests use daily data, which is autocorrelated; results were checked year by year, which leaves only 15 independent observations.
 
 ## Dashboard
 

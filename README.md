@@ -59,7 +59,7 @@ remittance-php-analysis/
 ## Project Status
 
 - [x] Project setup
-- [ ] Exchange rate data pipeline
+- [x] Exchange rate data pipeline
 - [x] Provider cost data cleaning
 - [x] SQL database and analysis queries
 - [x] Timing analysis

@@ -1,0 +1,6 @@
+collected_date,source,provider,send_usd,funding_method,total_fees_usd,provider_rate,php_received,notes
+2026-10-14,wise.com/us/compare,Remitly,200,Bank transfer/ACH,0.35,62.8264,12565.27,May reflect promotional or new-customer pricing
+2026-10-14,wise.com/us/compare,Wise,200,Bank transfer/ACH,2.22,62.9355,12447.38,Wise uses the mid-market rate
+2026-10-14,wise.com/us/compare,Wells Fargo,200,Bank transfer/ACH,6.23,60.9741,12194.83,
+2026-10-14,wise.com/us/compare,Western Union,200,Bank transfer/ACH,7.64,61.1396,12106.26,
+2026-10-14,wise.com/us/compare,PayPal,200,Bank transfer/ACH,13.53,60.1790,11735.50,
