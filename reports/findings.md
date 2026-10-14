@@ -67,6 +67,14 @@ Citibank's account-to-account transfer cost **0% through 2021**, then switched t
 
 **Lesson for families:** Don't wait for a "good day" to send money. Switching to a cheaper provider is worth far more.
 
+## 7. 2026 spot check
+
+On October 14, 2026, I compared live quotes for sending $200 (source: Wise's public
+comparison page, bank transfer funding). Wise (1.1%) and Western Union (3.8%) closely
+match the World Bank's Q1 2025 figures, confirming the ranking still holds. Remitly
+quoted just 0.2%, likely promotional pricing. Hidden exchange rate markups remain
+the largest cost: Wells Fargo charged no fee but a 3.1% markup.
+
 ## Recommendations
 
 1. **Compare pesos received, not fees.** Use a comparison tool before sending.

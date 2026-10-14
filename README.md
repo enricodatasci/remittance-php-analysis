@@ -1,5 +1,7 @@
 # Remittance Timing & Provider Cost Analysis (USD to PHP)
 
+**[View Interactive Dashboard](https://public.tableau.com/views/RemittanceCostsUSDtoPHP/PHP-ANALYSIS?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
 **An analytics project to help U.S. immigrant families understand where their money goes when sending it home to the Philippines.**
 
 ## Why This Project
@@ -63,12 +65,18 @@ remittance-php-analysis/
 - [x] Provider cost data cleaning
 - [x] SQL database and analysis queries
 - [x] Timing analysis
-- [ ] Tableau dashboard
+- [x] Tableau dashboard
 - [ ] Findings and family guide
 
-## Findings
+## Key Findings
 
-*Coming soon.*
+- **Provider choice matters most.** The cheapest provider delivered 546 more pesos per $200 than the costliest mainstream option, about 6,550 pesos a year.
+- **Costs hide in the exchange rate.** Pangea and WorldRemit hide over half their cost in the rate; Wise and M.Lhuillier show almost all of it upfront.
+- **Timing barely matters.** The best month beats the worst by only about 72 pesos, and the pattern isn't statistically reliable.
+- **Costs are rising.** The average fell from 6.6% (2011) to 3.7% (2020), then rose to 5.4% (2024), above the UN's 3% target.
+- **Verified in 2026.** A live price check in October 2026 matched the World Bank figures for Wise and Western Union.
+
+Full write-up: [reports/findings.md](reports/findings.md)
 
 ## Author
 
